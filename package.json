@@ -1,0 +1,27 @@
+{
+  "name": "amazon-playwright",
+  "version": "1.0.0",
+  "description": "End-to-end QA automation for Amazon using Playwright Test (JavaScript).",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:iphone": "playwright test tests/amazon-iphone.spec.js",
+    "test:galaxy": "playwright test tests/amazon-galaxy.spec.js"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation",
+    "amazon",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
